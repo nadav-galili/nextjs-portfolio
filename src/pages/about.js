@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useRef } from "react";
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
@@ -60,7 +61,7 @@ const about = () => {
                 experience, I'm passionate about bringing my clients' visions to
                 life through creative and strategic design solutions.
               </p>
-              <p className=" my-4 font-medium">
+              <p className="my-4 font-medium">
                 -Skilled in using various technologies and frameworks such as
                 JavaScript, Node.js, PHP, React and React Native. With a strong
                 drive for success and a commitment to delivering exceptional
@@ -95,7 +96,7 @@ const about = () => {
             </div>
 
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-2">
-              <div className="flex flex-col items-end justify-center xl:items-center ">
+              <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={50} />+
                 </span>
