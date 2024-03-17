@@ -33,7 +33,7 @@ const Education = () => {
     offset: ["center end", "center center"],
   });
   return (
-    <div className="my-64">
+    <div className="my-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 ">
         Education
       </h2>
@@ -44,7 +44,7 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Full Stack Developers Bootcamp"
+            type="Full Stack Developer"
             time="2020-2021"
             place="HackerU"
             info="Intensive 15-month full-stack web development bootcamp, focused on 
@@ -54,24 +54,11 @@ const Education = () => {
           industry professionals."
           />
           <Details
-            type="Full Stack Developers Bootcamp"
-            time="2020-2021"
-            place="HackerU"
-            info="Intensive 15-month full-stack web development bootcamp, focused on 
-          JavaScript, Node.js, React, and MongoDB. The program included a
-          combination of lectures, workshops, and hands-on projects, and
-          culminated in a final project that was presented to a panel of
-          industry professionals."
-          />
-          <Details
-            type="Full Stack Developers Bootcamp"
-            time="2020-2021"
-            place="HackerU"
-            info="Intensive 15-month full-stack web development bootcamp, focused on 
-          JavaScript, Node.js, React, and MongoDB. The program included a
-          combination of lectures, workshops, and hands-on projects, and
-          culminated in a final project that was presented to a panel of
-          industry professionals."
+            type="Certified Data analyst"
+            time="2019-2020"
+            place="New Media College"
+            info="Bridging data and design, I completed a Certified Data Analyst program in New Media College,
+                  with practical tools like SQL Server, Tableau, and Excel. I can translate complex data into clear visuals."
           />
         </ul>
       </div>

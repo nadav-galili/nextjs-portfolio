@@ -44,6 +44,7 @@ const Skills = () => {
         <Skill name="PHP" x="0vw" y="-20vw" />
         <Skill name="MySQL" x="-25vw" y="18vw" />
         <Skill name="AWS" x="18vw" y="18vw" />
+        <Skill name="MongoDB" x="0vw" y="20vw" />
       </div>
     </>
   );

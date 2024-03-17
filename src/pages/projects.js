@@ -5,7 +5,10 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+// import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/pokerApp.png";
+import project2 from "../../public/images/projects/portfolioImg.png";
+import project3 from "../../public/images/projects/donewithit.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -80,6 +83,7 @@ const Project = ({ title, type, img, link, github }) => {
         className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
                       md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]"
       />
+
       <Link
         href={link}
         target="_blank"
@@ -132,7 +136,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light ">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowladge"
+            text="Behind the scenes: Dive into the code that powers my web creations."
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div
@@ -142,65 +146,35 @@ const projects = () => {
               <FeaturedProject
                 type="Home Poker Games Management System"
                 title="Poker-Underdog"
-                summery="Project-1"
+                summery="A web app for managing statistics of home poker games,  
+                        built with ReactJS,NodeJS and MongoDb. hosted on AWS ec2 and S3 bucket.
+                        In this app you can create or join teams and collect statistics about the team's 
+                        home poker games"
                 img={project1}
-                link="/"
-                github="https://www.google.com"
+                link="https://www.poker-underdog.com"
+                github="https://github.com/nadav-galili/Poker-underdog"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                type="Home Poker Games Management System"
-                title="Poker-Underdog"
-                summery="Project-1"
-                img={project1}
+                type="Developer portfolio in Nextjs"
+                title="NextJs Portfolio"
+                summery="A portfolio for myself , built with NextJs and Framer-Motion"
+                img={project2}
                 link="/"
-                github="https://www.google.com"
+                github="https://github.com/nadav-galili/nextjs-portfolio"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                type="Home Poker Games Management System"
-                title="Poker-Underdog"
+                type="React Native App built with expo"
+                title="Done With It"
                 summery="Project-1"
-                img={project1}
+                img={project3}
                 link="/"
-                github="https://www.google.com"
-              />
-            </div>
-            <div className="col-span-12">
-              {" "}
-              <FeaturedProject
-                type="Home Poker Games Management System"
-                title="Poker-Underdog"
-                summery="Project-1"
-                img={project1}
-                link="/"
-                github="https://www.google.com"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                type="Home Poker Games Management System"
-                title="Poker-Underdog"
-                summery="Project-1"
-                img={project1}
-                link="/"
-                github="https://www.google.com"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project
-                type="Home Poker Games Management System"
-                title="Poker-Underdog"
-                summery="Project-1"
-                img={project1}
-                link="/"
-                github="https://www.google.com"
+                github="https://github.com/nadav-galili/donewithit"
               />
             </div>
           </div>

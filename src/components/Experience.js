@@ -3,12 +3,20 @@ import React, { useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "./LiIcon";
 
-const Details = ({ position, company, companyyLink, time, address, work }) => {
+const Details = ({
+  position,
+  company,
+  companyyLink,
+  time,
+  address,
+  work,
+  className = "items-center",
+}) => {
   const ref = useRef(null);
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%] ">
+      className={`my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col ${className} justify-between md:w-[80%]`}>
       <LiIcon reference={ref} />
       <motion.div
         initial={{ y: 50 }}
@@ -39,7 +47,7 @@ const Experience = () => {
     offset: ["center end", "center center"],
   });
   return (
-    <div className="my-64">
+    <div className="mt-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 ">
         Experience
       </h2>
@@ -56,49 +64,46 @@ const Experience = () => {
             companyyLink="https://www.mobile-brain.net"
             address="Ramat-Gan"
             time="2021 - Present"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            work="In charge of development and maintence of mobile
+            application, focusing mainly on the backend aspects. I
+            am responsible for ensuring that the backend systems
+            for the apps are functioning smoothly and effectively,
+            as well as for implementing and maintaining the CRM
+            system that serves thousands of apps. My skills in a
+            
+            variety of technologies enable me to deliver high-
+            quality products.
+            
+            noteable projects i've worked on:
+            rewriting parts of the company's system from PHP to Node.js
+            and transfering servers from dedicated to AWS"
           />
           <Details
-            position="Full Stack Developer"
-            company="Mobile-Brain"
-            companyyLink="https://www.mobile-brain.net"
+            position="Lecturer at Full Stack Course"
+            company="HackerU"
+            companyyLink="https://www.hackeru.co.il"
             address="Ramat-Gan"
-            time="2021 - Present"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            time="2023 - Present"
+            work="Teaching several modules at full-stack developer course,
+                  icnluding: Js foundementals, PHP, MySQL, HTML, CSS and ReactJs"
           />
           <Details
-            position="Full Stack Developer"
-            company="Mobile-Brain"
-            companyyLink="https://www.mobile-brain.net"
-            address="Ramat-Gan"
-            time="2021 - Present"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            position="Sales Manager"
+            company="FMCG company"
+            companyyLink="/"
+            address="Keysaria"
+            time="2016 - 2021"
+            className="items-start"
+            work=" "
           />
           <Details
-            position="Full Stack Developer"
-            company="Mobile-Brain"
-            companyyLink="https://www.mobile-brain.net"
+            position="Manager of a big store"
+            company="Home-Center"
+            companyyLink="https://www.homecenter.co.il"
             address="Ramat-Gan"
-            time="2021 - Present"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Full Stack Developer"
-            company="Mobile-Brain"
-            companyyLink="https://www.mobile-brain.net"
-            address="Ramat-Gan"
-            time="2021 - Present"
-            work="Worked on a team responsible for developing new features for Google's 
-          search engine, including improving the accuracy and relevance of search results and 
-          developing new tools for data analysis and visualization."
+            time="2010 - 2016"
+            className="items-start"
+            work=" "
           />
         </ul>
       </div>

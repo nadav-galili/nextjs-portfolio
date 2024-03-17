@@ -45,7 +45,7 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Code with passion, create with purpose."
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -54,23 +54,28 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                - Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                -Hi! I'm Nadav Galili, a full-stack web developer with a knack
+                for crafting user-friendly interfaces that are both visually
+                stunning and functionally sound. With almost 3 years of
+                experience, I'm passionate about bringing my clients' visions to
+                life through creative and strategic design solutions.
               </p>
               <p className=" my-4 font-medium">
-                - I believe that design is about more than just making things
-                look pretty – it's about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                -Skilled in using various technologies and frameworks such as
+                JavaScript, Node.js, PHP, React and React Native. With a strong
+                drive for success and a commitment to delivering exceptional
+                results, I leverage my technical skills and analytical mindset
+                to build high-performing solutions that meet the needs of my
+                company's business and end-users alike. Whether working on a
+                challenging project or collaborating with a team, I am dedicated
+                to finding innovative solutions that drive success and make a
+                real impact.
               </p>
               <p className="font-medium">
-                - Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                -Crafting user-facing magic requires a solid foundation. I build
+                scalable, secure backend solutions that keep your projects
+                running smoothly. I don't just paint the picture, I build the
+                canvas.
               </p>
             </div>
             <div
@@ -103,7 +108,7 @@ const about = () => {
               <div className="flex flex-col items-end justify-center xl:items-center ">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   {" "}
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={30} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75  dark:text-light/75 l:text-center md:text-lg 
