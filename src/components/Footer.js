@@ -8,20 +8,20 @@ const Footer = () => {
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Resereved.</span>
         <div className="flex items-center lg:py-2">
-          Created by &nbsp;
-          <Link
+          Created by Nadav Galili 🧙‍♂️
+          {/* <Link
             href="https://www.nadav-galili.com"
             className="underline underline-offset-2 ">
             Nadav Galili{" "}
-          </Link>{" "}
-          &nbsp; 🧙‍♂️
+          </Link>{" "} */}
+   
         </div>
-        <Link
+        {/* <Link
           href="https://www.nadav-galili.com"
           target={"_blank"}
           className="underline underline-offset-2 ">
           Say Hello
-        </Link>
+        </Link> */}
       </Layout>
     </footer>
   );

@@ -55,7 +55,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                -Hi! I'm Nadav Galili, a full-stack web developer with a knack
+                -Hi! I'm Nadav Galili, a full-stack web developer with a desire
                 for crafting user-friendly interfaces that are both visually
                 stunning and functionally sound. With almost 3 years of
                 experience, I'm passionate about bringing my clients' visions to
