@@ -63,7 +63,7 @@ const about = () => {
               </p>
               <p className="my-4 font-medium">
                 -Skilled in using various technologies and frameworks such as
-                JavaScript, Node.js, PHP, React and React Native. With a strong
+                Typescript, Node.js, PHP, React and React Native. With a strong
                 drive for success and a commitment to delivering exceptional
                 results, I leverage my technical skills and analytical mindset
                 to build high-performing solutions that meet the needs of my

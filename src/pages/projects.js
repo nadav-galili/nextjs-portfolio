@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 // import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project1 from "../../public/images/projects/pokerApp.png";
+import project1 from "../../public/images/projects/pokerDonkey.webp";
 import project2 from "../../public/images/projects/portfolioImg.png";
 import project3 from "../../public/images/projects/donewithit.png";
 import { motion } from "framer-motion";
@@ -60,14 +60,14 @@ const FeaturedProject = ({ type, title, summery, img, link, github }) => {
           <Link href={github} target="_blank" className="w-10">
             <GithubIcon />
           </Link>
-{/* 
+
           <Link
             href={link}
             target="_blank"
             className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
                       dark:bg-light dark:text-dark sm:px-4 sm:text-base">
             Visit Project
-          </Link> */}
+          </Link>
         </div>
       </div>
     </article>
@@ -136,13 +136,13 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light ">
         <Layout className="pt-16">
           <AnimatedText
-            text="Behind the scenes: Dive into the code that powers my web creations."
+            text="Behind the scenes: Dive into the code that powers my creations."
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div
             className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 
                           lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 type="Home Poker Games Management System"
                 title="Poker-Underdog"
@@ -153,6 +153,17 @@ const projects = () => {
                 img={project1}
                 link="https://www.poker-underdog.com"
                 github="https://github.com/nadav-galili/Poker-underdog"
+              />
+            </div> */}
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Home Poker Games Management System"
+                title="Poker Donkey - Stats Tracker"
+                summery="An android app on google play built with react native expo, backend 
+                        with NodeJs and Sequelize. This app is a poker stats tracker for home poker games"
+                img={project1}
+                link="https://play.google.com/store/apps/details?id=com.nadavg.newpokerdonkey"
+                github="https://github.com/nadav-galili/backendDonk"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
